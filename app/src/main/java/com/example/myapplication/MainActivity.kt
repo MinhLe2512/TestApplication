@@ -30,10 +30,6 @@ class MainActivity : AppCompatActivity() {
         view_unit.addOnPageChangeListener(viewPagerPageChangeListener)
     }
 
-    /**
-     * A simple pager adapter that represents 5 ScreenSlidePageFragment objects, in
-     * sequence.
-     */
     private inner class ScreenSlidePagerAdapter(
         private val context: Context,
         private val item_list: TextList
