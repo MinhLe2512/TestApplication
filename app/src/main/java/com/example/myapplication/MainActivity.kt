@@ -64,7 +64,7 @@ class MainActivity : AppCompatActivity() {
         val slider = ScreenSlidePagerAdapter(this, tl)
         view_unit.adapter = slider
 
-        view_unit.setPadding(100, 0, 100, 0)
+        view_unit.setPadding(80, 0, 80, 0)
         view_unit.clipToPadding = false
 
         view_unit.addOnPageChangeListener(viewPagerPageChangeListener)
