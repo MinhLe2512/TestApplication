@@ -1,52 +1,17 @@
 package com.example.myapplication
 
 
-import android.animation.AnimatorSet
-import android.animation.ObjectAnimator
-import android.animation.ValueAnimator
 import android.content.Context
-import android.nfc.Tag
 import android.os.Bundle
-import android.renderscript.Sampler
-import android.util.Log
 import android.view.View
 import android.view.ViewGroup
-import android.view.animation.LinearInterpolator
-import android.widget.TextView
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.marginRight
-import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
 import androidx.viewpager.widget.PagerAdapter
 import androidx.viewpager.widget.ViewPager
-import com.example.myapplication.api.SimpleAPI
-import com.example.myapplication.model.PhotoAccount
 import com.example.myapplication.model.TextList
-import com.example.myapplication.model.Unit
-import com.example.myapplication.model.User
-import kotlinx.android.synthetic.main.recycler_unit.view.*
-import com.google.gson.Gson
-import com.google.gson.reflect.TypeToken
-import kotlinx.android.synthetic.main.activity_main.*
-import kotlinx.android.synthetic.main.page_fragments.*
 import kotlinx.android.synthetic.main.page_fragments.view.*
-import kotlinx.android.synthetic.main.view_item.view.*
-import kotlinx.android.synthetic.main.view_photo.*
-import kotlinx.android.synthetic.main.view_photo.view.*
 import kotlinx.android.synthetic.main.view_unit.*
-import kotlinx.android.synthetic.main.view_unit.view.*
-import org.json.JSONArray
-import org.json.JSONObject
-import retrofit2.Call
-import retrofit2.Callback
-import retrofit2.Response
-import retrofit2.Retrofit
-import retrofit2.converter.gson.GsonConverterFactory
-import java.io.BufferedReader
-import java.io.InputStreamReader
-import java.lang.StringBuilder
-import java.lang.reflect.Type
+
 
 class MainActivity : AppCompatActivity() {
 
@@ -109,6 +74,7 @@ class MainActivity : AppCompatActivity() {
         }*/
     }
 
+/*
     private fun getNetworkResource() {
         val retrofit = Retrofit.Builder()
             .baseUrl("https://api.github.com/")
@@ -152,6 +118,7 @@ class MainActivity : AppCompatActivity() {
     private fun getProduct(string: String): List<Unit.Product> {
         return Gson().fromJson(string, object : TypeToken<List<Unit.Product>>() {}.type)
     }
+
 
     inner class ScreenSliderAdapter(
         private val context: Context,
@@ -229,7 +196,7 @@ class MainActivity : AppCompatActivity() {
         }
 
     }
-
+*/
 /*val listItem = TextList()
 listItem.addText()
 
@@ -276,7 +243,7 @@ rec
     }
 
     //Create Animator Value
-    private fun kingButtonAnimation(): ValueAnimator {
+    /*private fun kingButtonAnimation(): ValueAnimator {
         val animatorValue = ValueAnimator.ofFloat(0f, 360f)
         animatorValue.addUpdateListener {
             val value = it.animatedValue as Float
@@ -285,7 +252,7 @@ rec
         animatorValue.interpolator = LinearInterpolator()
         //animatorValue.duration = 1000
         return animatorValue
-    }
+    }*/
 
     private var viewPagerPageChangeListener: ViewPager.OnPageChangeListener =
         object : ViewPager.OnPageChangeListener {

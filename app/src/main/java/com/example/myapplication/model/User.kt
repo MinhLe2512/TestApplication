@@ -2,7 +2,7 @@ package com.example.myapplication.model
 
 class User(
 
-    val login: String,
+    /*val login: String,
     var id: Int,
     val node_id: String,
     val avatar_url: String,
@@ -19,5 +19,5 @@ class User(
     val events_url: String,
     val received_events_url: String,
     val type: String,
-    val site_admin: Boolean
+    val site_admin: Boolean*/
 )
