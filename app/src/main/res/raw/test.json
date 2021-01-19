@@ -1,0 +1,50 @@
+[
+  {
+    "id": 123,
+    "address": "123456abc",
+    "listOfProduct": [
+      {
+        "id": 1,
+        "productName": "Test1",
+        "productPrice": 50000
+      },
+      {
+        "id": 2,
+        "productName": "Test2",
+        "productPrice": 60000
+      }
+    ]
+  },
+  {
+    "id": 234,
+    "address": "123456abc",
+    "listOfProduct": [
+      {
+        "id": 3,
+        "productName": "Test1",
+        "productPrice": 50000
+      },
+      {
+        "id": 4,
+        "productName": "Test2",
+        "productPrice": 60000
+      }
+    ]
+  },
+  {
+    "id": 567,
+    "address": "123456abc",
+    "listOfProduct": [
+      {
+        "id": 5,
+        "productName": "Test1",
+        "productPrice": 50000
+      },
+      {
+        "id": 6,
+        "productName": "Test2",
+        "productPrice": 60000
+      }
+    ]
+  }
+]
