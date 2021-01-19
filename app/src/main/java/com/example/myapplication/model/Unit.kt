@@ -40,7 +40,7 @@ class Unit(
         )
 
         //var listProduct: ArrayList<Product> = ArrayList()
-/*
+
         val listUnit =
             listOf(
                 Unit(
@@ -69,7 +69,7 @@ class Unit(
                     Product.listProduct
                 )
             )
-*/
+
 
         /*fun getListOfProduct(position: Int): List<Product> {
             return listUnit[position].listOfProduct
