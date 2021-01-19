@@ -26,7 +26,6 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:padding="@dimen/spacing_normal"
-            android:text="Unit 1"
             android:textSize="@dimen/font_large" />
 
         <TextView
@@ -35,7 +34,6 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:padding="@dimen/spacing_normal"
-            android:text="Unit 1"
             android:textSize="@dimen/font_large" />
 
     </LinearLayout>
